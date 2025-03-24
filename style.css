@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+/* En-tête */
+header {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    padding: 15px;
+    color: white;
+}
+
+.nav-left {
+    font-weight: bold;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Grands titres centrés */
+h2 {
+    font-weight: bold;
+    color: blue;
+    text-align: center;  /* Centrage des grands titres */
+}
+
+/* Accueil */
+#accueil {
+    text-align: center;
+    padding: 50px;
+}
+
+.accueil-content {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 20px;
+}
+
+.accueil-content img {
+    width: 50%;
+    height: auto;
+	float: right;
+	margin-left: 1000px;
+	display: flex;
+	align-items: right;
+}
+
+/* À propos avec fond gris */
+#propos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    background: #e0e0e0; /* Fond gris */
+}
+
+.propos-content {
+    width: 50%;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid red;
+}
+
+/* Projets */
+.mini-jeux {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Fond gris pour les blocs "Voir" */
+.mini-jeux button {
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background: #e0e0e0; /* Fond gris */
+    color: black; /* Texte noir pour lisibilité */
+}
+
+/* Compétences */
+.fort { color: green; }
+.moyen { color: orange; }
+.faible { color: red; }
+
+/* Formulaire */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+button {
+    background: green;
+    padding: 10px;
+}
